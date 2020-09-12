@@ -1,6 +1,7 @@
 import os
 import sys
 import math
+
 print(os.name)
 print(os.getcwd())
 new_path = os.path.join(os.getcwd(), 'new_f')
@@ -10,14 +11,15 @@ print(sys.executable)
 print(sys.platform)
 # sys.exit()
 print("Tobi P**da")
+# sys.path.append('C:\\Users\\Shatun\\AppData\\Local\\Programs\\Python\\Python38-32\\Lib\\site-packages\\bs4')
 print(sys.path)
 print(type(sys.path))
 
 for p in sys.path:
     print(p)
-# sys.path.append("J:")
-import pythonProject1.pythonfileTEST
+# sys.path.append("C:\\Users\\Shatun\\AppData\\Local\\Programs\\Python\\Python38-32\\Lib\\site-packages")
 
+import Lesson5librays.pythonProject1.pythonfileTEST
 name = sys.platform
 def mkdir():
     for i in range(1, 6):
@@ -27,6 +29,6 @@ def rmdir():
     for n in range(1, 6):
         del_patch = os.path.join(os.getcwd(), '{}_{}'.format(name, n))
         os.rmdir(del_patch)
-rmdir()
+# rmdir()
 
 
