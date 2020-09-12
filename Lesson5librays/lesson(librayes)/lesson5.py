@@ -15,8 +15,8 @@ print(type(sys.path))
 
 for p in sys.path:
     print(p)
-sys.path.append("J:")
-import pythonfileTEST
+# sys.path.append("J:")
+import pythonProject1.pythonfileTEST
 
 name = sys.platform
 def mkdir():
