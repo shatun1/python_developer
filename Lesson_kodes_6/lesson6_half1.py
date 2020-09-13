@@ -4,10 +4,10 @@ a = open('first file.txt', 'r')
 # a.write('World\n')
 # a.writelines(['Hello\n', 'Python\n'])
 # print(a.read())
-for line in a:
-    print(line.replace('\n', ''))
-# print(a.readlines())
-a.close()
+# for line in a:
+#     print(line.replace('\n', ''))
+print(a.readlines())
+# a.close()
 with open('first file.txt', 'r') as a:
     for line in a:
         print(line.replace('\n', ''))
