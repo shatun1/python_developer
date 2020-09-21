@@ -4,7 +4,7 @@ Fructs_list2 = ["Апельсины", 'Виноград', "Малина", "Гр�
 result = [i for i in Fructs_list1 for j in Fructs_list2 if i == j]
 print(result)
 numbers = [1, -1, 2, -2, 3, -3, 4, -4, 5, -5, 6, -6, 7, -7, 8, -8, 9, -9, 27]
-result = [number for number in numbers if number > 0 if number % 3 == 0 if number % 4 !=0]
+result = [number for number in numbers if number > 0 and number % 3 == 0 and number % 4 !=0]
 print(result)
 numbers = [1, -1, 2, -2, 3, -3, 4, -4, 5, -5, 6, -6, 7, -7, 8, -8, 9, -9, 27]
 
